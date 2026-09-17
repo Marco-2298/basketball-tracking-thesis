@@ -1,0 +1,33 @@
+# Virtual environment
+.venv/
+
+# macOS
+.DS_Store
+
+# Python
+__pycache__/
+*.pyc
+
+# Datasets
+datasets/
+
+# Outputs
+outputs/
+
+# Model weights / checkpoints
+*.pt
+*.pth
+*.ckpt
+*.onnx
+
+# Videos
+*.mp4
+*.mov
+*.avi
+*.mkv
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Environment files
+.env
