@@ -8,13 +8,24 @@
 __pycache__/
 *.pyc
 
+# Jupyter
+.ipynb_checkpoints/
+
+# Environment files
+.env
+
 # Datasets
-datasets/
+datasets/*
+!datasets/.gitkeep
 
 # Outputs
 outputs/
 
-# Model weights / checkpoints
+# Checkpoints
+checkpoints/*
+!checkpoints/.gitkeep
+
+# Model weights
 *.pt
 *.pth
 *.ckpt
@@ -26,8 +37,8 @@ outputs/
 *.avi
 *.mkv
 
-# Jupyter
-.ipynb_checkpoints/
-
-# Environment files
-.env
+# Heavy experiment artifacts
+experiments/**/*.mp4
+experiments/**/*.avi
+experiments/**/*.npy
+experiments/**/*.npz
